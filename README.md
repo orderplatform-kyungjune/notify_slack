@@ -26,6 +26,9 @@ jobs:
         with:
           slack_webhook_url: ${{ secrets.SLACK_WEBHOOK_URL }}
 ```
+
+<img width="805" alt="example" src="https://github.com/torder-lkj/notify_slack/assets/164902555/c55fb4d7-c098-4f8b-b2dc-eaa5c80c5275">
+
 Please make sure to replace ${{ secrets.SLACK_WEBHOOK_URL }} with your actual slack webhook url.</br>
 Also, ensure you are using the latest version of this action.
 
